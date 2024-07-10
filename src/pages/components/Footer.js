@@ -47,13 +47,13 @@ function Footer() {
                                     <a href="https://instagram.com/" rel="noreferrer" target="_blank"><i className="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-                            <div className="col-6 col-lg-3">
+                            <div className="col-sm-12 col-lg-3">
                                 <h3 className="footer-heading">Payment method Partners </h3>
                                 <div className="d-block text-left">
-                                    <img src={mastercard}  alt="mastercard" style={{width: 60, height: 55, marginLeft: 10}} />
-                                    <img src={visa}  alt="visa" style={{width: 100, height: 35}} />
-                                    <img src={verve}  alt="verve" style={{width: 100, height: 35}} />
-                                    <img src={interswitch}  alt="interswitch" style={{width: 100, height: 35}} />
+                                    <img src={mastercard}  alt="mastercard" style={{width: 50, height: 35}} />
+                                    <img src={visa}  alt="visa" style={{width: 70, height: 35, marginLeft: 5}} />
+                                    <img src={verve}  alt="verve" style={{width: 70, height: 35, marginLeft: 5}} />
+                                    <img src={interswitch}  alt="interswitch" style={{width: 80, height: 35, marginLeft: 5}} />
                                 </div>
                             </div>
                         </div>
