@@ -6,6 +6,7 @@ import image2 from '../assets/image2.png';
 import image3 from '../assets/image3.png';
 import image4 from '../assets/image4.png';
 import Footer from './components/Footer';
+import { Link } from 'react-router-dom';
 
 
 const HomeCard = () => {
@@ -58,7 +59,8 @@ const HomeCard = () => {
                                         <i className='fas fa-star'></i>
                                         <i className='fas fa-star-half'></i>
                                     </div>
-                                    <a href='./#' className='btn'>Add to Cart</a>
+                                    <Link to='/cart' className='btn'>Add to Cart</Link>
+                                    {/* <a href='./cart' className='btn'>Add to Cart</a> */}
                                 </div>
                             </div>
                         </div>
@@ -91,7 +93,7 @@ const HomeCard = () => {
                                         <i className='fas fa-star'></i>
                                         <i className='fas fa-star-half'></i>
                                     </div>
-                                    <a href='./#' className='btn'>Add to Cart</a>
+                                    <Link to='/cart' className='btn'>Add to Cart</Link>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +125,7 @@ const HomeCard = () => {
                                         <i className='fas fa-star'></i>
                                         <i className='fas fa-star-half'></i>
                                     </div>
-                                    <a href='./#' className='btn'>Add to Cart</a>
+                                    <Link to='/cart' className='btn'>Add to Cart</Link>
                                 </div>
                             </div>
                         </div>

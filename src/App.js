@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Cart from './pages/Details';
+import Cart from './pages/Cart';
 import Measures from './pages/Measures';
 import KPIs from './pages/KPIs';
 import Control from './pages/Controls';

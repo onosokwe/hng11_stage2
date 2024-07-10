@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -18,8 +19,12 @@ function Header() {
 
 
                     <div style={{marginLeft: 20}}>
-                        <i className='fa fa-heart fa-1x' style={{color:'black', marginRight: 15 }}></i>
-                        <i className='fa fa-shopping-cart fa-1x' style={{color:'black' }}></i>
+                        <Link to="/cart">
+                            <i className='fa fa-heart fa-1x' style={{color:'black', marginRight: 15 }}></i>
+                        </Link>
+                        <a href="/#">
+                            <i className='fa fa-shopping-cart fa-1x' style={{color:'black' }}></i>
+                        </a>
                     </div>
 
                 </div>
