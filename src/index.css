@@ -24,7 +24,7 @@ body {
 
 /* recently */
 .recently {
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .recently h1 {
   font-size: 20px;
@@ -36,6 +36,7 @@ body {
 .recently .item {
   border-radius: 9px;
   min-height: 250px;
+  margin-bottom: 20px;
 }
 .recently .item-image {
   position:relative;
