@@ -37,7 +37,7 @@ const HomeCard = () => {
             <section className='container recently' style={{marginTop:100}}>
                 <div className='row'>
                     <div className='col-12'>
-                        <h1>Recently Viewed <i className='fas fa-caret'></i></h1>
+                        <h1>Recently Viewed <i className='fas fa-chevron-right'></i></h1>
                     </div>
                     
                     {data && data.map((item, i) => (
@@ -70,7 +70,7 @@ const HomeCard = () => {
             <section className='container recently'>
                 <div className='row'>
                     <div className='col-12'>
-                        <h1>You might also like Viewed <i className='fas fa-caret'></i></h1>
+                        <h1>You might also like <i className='fas fa-chevron-right'></i></h1>
                     </div>
                     
                     {data && data.map((item, i) => (
@@ -95,15 +95,41 @@ const HomeCard = () => {
                                 </div>
                             </div>
                         </div>
-
-
                     ))}
-                    
-
                 </div>
             </section> 
 
-
+            <section className='container recently'>
+                <div className='row'>
+                    <div className='col-12'>
+                        <h1>Discover new brands <i className='fas fa-chevron-right'></i></h1>
+                    </div>
+                    
+                    {data && data.map((item, i) => (
+                        <div className='col-md-3 col-sm-6' key={i}>
+                            <div className='item'>
+                                <div className='item-image'>
+                                    <img src={item.link} alt='alpha' style={{height: '100%', width:'100%'}} />
+                                    <a href='./#' className='icon-btn'>
+                                        <i className='fa fa-heart position-absolute'></i>
+                                    </a>
+                                </div>
+                                <div className='item_desc'>
+                                    <h4>{item.amount}</h4>
+                                    <div className='item_star'>
+                                        <i className='fas fa-star'></i>
+                                        <i className='fas fa-star'></i>
+                                        <i className='fas fa-star'></i>
+                                        <i className='fas fa-star'></i>
+                                        <i className='fas fa-star-half'></i>
+                                    </div>
+                                    <a href='./#' className='btn'>Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section> 
 
 
             <Footer />
